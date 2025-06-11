@@ -1,11 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Cadastro LumerBook</title>
 </head>
+
 <body>
-    
+
+    <div class="content">
+        <div class="h1"> <h1>O seu espaço de leitura mais amado <br> <span>CHEGOU</span> </h1> </div>
+        <div class="h4"> <h4>Apenas 5 minutos te separam <br> do maior acervo de ebooks <br> Da américa latina</h4> </div>
+        <div class="p"> <p>Mais de 10.000 ebooks a sua disposição</p> </div>
+    </div>
+
+
+    <div class="container">
+
+        <div class="imgMan">
+            <img src="" alt="">
+        </div>
+
+        <form>
+            <div class="logo">
+                <img src="Logo-LumerBook/Logo-BrainUp-removebg-preview.png" alt="">
+            </div>
+
+            <div class="textFast"><p>Complete com seus dados, é rapidinho</p></div>
+
+            <div class="input" id="fullName">
+                <input type="text"  placeholder=" Nome completo">
+            </div>
+            <div class="input" id="emailCadaster">
+                <input type="email"  placeholder=" Email">
+            </div>
+            <div class="input" id="passwordCadaster">
+                <input type="password"  placeholder=" Senha">
+            </div>
+            <div class="input" id="confirmPassword">
+                <input type="password"  placeholder=" Confirme sua senha">
+            </div>
+                
+        <div class="btnRegister">
+            <button id="btnRegister" onclick="window.location.href='../Página-Login/indexLogin.html'" type="submit">Cadastre-se</button>
+            <p>Já tem cadastro? <a href="../Página-Login/indexLogin.html">Faça o Login</a></p>
+        </div>
+
+        </form>
+    </div>
 </body>
+<script src="script.js"></script>
+
 </html>
