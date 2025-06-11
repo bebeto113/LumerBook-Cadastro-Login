@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    background-image: url(Bg/joanna-kosinska-1_CMoFsPfso-unsplash.jpg);
+    background-size: cover;
+}
+
+.content {
+    margin-left: 50px;
+    position: relative;
+    width: 400px;
+}
+
+.content .h1 {
+    position: absolute;
+    width: 730px;
+    bottom: 30px;
+}
+
+.content .h1 h1 {
+    font-size: 50px;
+    line-height: 65px;
+}
+
+.content .h1 span {
+    color: #A67C52;
+}
+
+.content .h4 {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+    left: 250px;
+    box-shadow: -8px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -8px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -8px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.content .h4 h4 {
+    font-size: 20px;
+}
+
+.content .h4:hover {
+    top: 45px;
+    left: 255px;
+}
+
+.content .p {
+    position: absolute;
+    width: 100%;
+    top: 200px;
+    left: 200px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.content .p:hover {
+    top: 195px;
+    left: 195px;
+}
+
+.content .p p {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+
+.container {
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #746730c9;
+    border-radius: 15px;
+    padding: 20px 70px 10px 70px;
+    backdrop-filter: blur(16px);
+    background-color: #ffe9ae;
+    margin-right: 50px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+form {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.logo img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.input {
+    width: 70%;
+    height: 45px;
+    margin: 10px 0 10px 0;
+}
+
+.input input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 30px;
+    background-color: #8f7429a8;
+    color: #ffffff;
+    outline: none;
+    transition-duration: 0.5s;
+    padding-left: 10px;
+
+}
+
+.input input::placeholder {
+    color: #ffffff81;
+}
+
+.input input:hover {
+    border-radius: 10px;
+}
+
+.btnRegister {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btnRegister #btnRegister {
+    width: 50%;
+    height: 50px;
+    border-radius: 7px;
+    border: 1px solid #D6C6B8;
+    font-size: 20px;
+    background-color: #A67C52;
+    color: #fff;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition-duration: 0.7s;
+}
+
+.btnRegister #btnRegister:hover {
+    opacity: 0.9;
+    color: #ffffff77;
+    border-radius: 50px;
+}
+
+.btnRegister #btnRegister:active {
+    opacity: 0.6;
+    transition-duration: 0.1s;
+}
+
+.btnRegister p {
+    text-align: right;
+    margin-top: 2px;
+    font-size: 14px;
+    color: #333;
+}
+
+.btnRegister p a {
+    color: #333;
+    font-size: 14px;
+    font-weight: 700;
+    transition-duration: 0.3s;
+}
+
+.btnRegister a:hover {
+    font-size: 13.7px;
+}
