@@ -111,6 +111,7 @@ form {
     width: 70%;
     height: 45px;
     margin: 10px 0 10px 0;
+    position: relative;
 }
 
 .input input {
@@ -197,7 +198,72 @@ form {
     display: none;
 }
 
-.noticeFill {
+.noticeFillName {
+    font-size: 12.8px;
+    font-weight: 500;
+    padding-left: 10px; 
+    padding-top: 2px;
+    color: red;
+    display: none;
+}
+
+.noticeWrongEmail {
+    font-size: 12.8px;
+    font-weight: 500;
+    padding-left: 10px; 
+    padding-top: 2px;
+    color: red;
+    display: none;
+}
+
+.noticeFillEmail {
+    font-size: 12.8px;
+    font-weight: 500;
+    padding-left: 10px; 
+    padding-top: 2px;
+    color: red;
+    display: none;
+}
+
+.noticeFillPassword {
+    font-size: 12.8px;
+    font-weight: 500;
+    padding-left: 10px; 
+    padding-top: 2px;
+    color: red;
+    display: none;
+}
+
+.noticeWrongPassword {
+    font-size: 12.8px;
+    font-weight: 500;
+    padding-left: 10px; 
+    padding-top: 2px;
+    color: red;
+    display: none;
+}
+
+.passwordDetails {
+    font-size: 10px;
+    font-weight: 550;
+    width: 120px;
+    text-align: right;
+    position: absolute;
+    padding-top: 3px;
+    padding-right: 10px;
+    left: 200px;
+}
+
+.noticeWrongConfirmPassword {
+    font-size: 12.8px;
+    font-weight: 500;
+    padding-left: 10px; 
+    padding-top: 2px;
+    color: red;
+    display: none;
+}
+
+.noticeFillConfirmPassword {
     font-size: 12.8px;
     font-weight: 500;
     padding-left: 10px; 
