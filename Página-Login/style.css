@@ -151,3 +151,42 @@ body {
 .login a:hover {
     font-size: 12px;
 }
+
+
+/*////////////JavaScript/////////////*/
+
+.noticeWrongEmail {
+    font-size: 12.8px;
+    font-weight: 500;
+    padding-left: 10px; 
+    padding-top: 2px;
+    color: red;
+    display: none;
+}
+
+.noticeFillEmail {
+    font-size: 12.8px;
+    font-weight: 500;
+    padding-left: 10px; 
+    padding-top: 2px;
+    color: red;
+    display: none;
+}
+
+.noticeWrongPassword {
+    font-size: 12.8px;
+    font-weight: 500;
+    padding-left: 10px; 
+    padding-top: 2px;
+    color: red;
+    display: none;
+}
+
+.noticeFillPassword {
+    font-size: 12.8px;
+    font-weight: 500;
+    padding-left: 10px; 
+    padding-top: 2px;
+    color: red;
+    display: none;
+}

@@ -5,7 +5,6 @@ const inputConfirmPassword = document.getElementById('confirmPassword')
 
 const form = document.querySelector('.form')
 
-
 //////////////////////////////////////////
 
 form.addEventListener('submit', formValidation)
@@ -47,18 +46,31 @@ function formValidation(event) {
     }
 
     if (formIsValid) {
-    const user = {
-        name: inputName.value,
-        email: inputEmail.value,
-        password: inputPassword.value
-    }
 
-    const userJSON = JSON.stringify(user)
-    localStorage.setItem("user", userJSON)
+    let formInformations = []
 
-    console.log("Usuário salvo!")
+        const storedUsers = localStorage.getItem("user")
+        if (storedUsers) {
+            formInformations = JSON.parse(storedUsers)
+        }
+
+        formInformations.push({
+            name: inputName.value,
+            email: inputEmail.value,
+            password: inputPassword.value
+        })
+
+        const userJSON = JSON.stringify(formInformations)
+        localStorage.setItem("user", userJSON)
+
+        console.log("Usuário salvo!")
 
     window.location.href = "../Página-Login/indexLogin.html"
+
+    inputEmail.value = ''
+    inputName.value = ''
+    inputConfirmPassword.value = ''
+    inputPassword.value = ''
 }
 }
 
@@ -203,4 +215,3 @@ function realyPasswordValidation(input) {
         return true
     }
 }
-
