@@ -184,3 +184,24 @@ form {
 .btnRegister a:hover {
     font-size: 13.7px;
 }
+
+
+/*/////JAVASCRIPT///////*/
+
+.noticeNumber {
+    font-size: 12.8px;
+    font-weight: 500;
+    padding-left: 10px; 
+    padding-top: 2px;
+    color: red;
+    display: none;
+}
+
+.noticeFill {
+    font-size: 12.8px;
+    font-weight: 500;
+    padding-left: 10px; 
+    padding-top: 2px;
+    color: red;
+    display: none;
+}
